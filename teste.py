@@ -1,3 +1,6 @@
 print("teste")
 print(4+4)
-print(5/0)
+try:
+	print(5/0)
+except ZeroDivisionError as error:
+	print("Nao pode dividir por zero")
